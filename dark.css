@@ -1,0 +1,11 @@
+/* dark */
+:root {
+    --bg_col:  linear-gradient(180deg, #242833 0%, #16181D 100%);
+    --btn_bg: linear-gradient(134deg, #A0ADC4 15.47%, #C5CEDF 94.71%);
+    --p: #A0AEC4;
+    --h1: #ffffff;
+    --defult: url("./img/pastdark1.svg");
+    --nol: url("./img/pastdark2.svg");
+    --top: url("./img/past2.png");
+    --left: url("./img/past3.svg");
+  }

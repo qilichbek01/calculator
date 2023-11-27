@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.index{
+  zoom: 3;
+  cursor: pointer;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  width: 37.5rem;
+  position: relative;
+  height: 71.2rem;
+  background: var(--bg_col);
+  padding: 2rem 1.8rem;
+  overflow: hidden;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  background-image: var(--defult);
+  background-size: 100% 100%;
+  color: var(--h1);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 21px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nol {
+  background-image: var(--nol);
+}
+
+.top {
+  background-image: var(--top);
+}
+
+.left {
+  background-image: var(--left);
+}
+
+button>p {
+  position: absolute;
+}
+
+main {
+  height: 21.1rem;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+  padding-bottom: 4rem;
+}
+
+main p {
+  color: var(--p);
+  text-align: right;
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+
+main h1 {
+  color: var(--h1);
+  text-align: right;
+  font-size: 5.6rem;
+  font-weight: 400;
+}
+
+.klav {
+  height: 45rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-gap: 1rem; */
+}
+
+.nol {
+  grid-column: 1/3;
+}

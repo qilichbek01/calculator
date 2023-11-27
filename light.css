@@ -1,0 +1,11 @@
+/* light */
+:root {
+    --bg_col: #DEE1EA;
+    --btn_bg: linear-gradient(134deg, #A0ADC4 15.47%, #C5CEDF 94.71%);
+    --p: #A0AEC4;
+    --h1: #1D2028;
+    --defult: url("./img/oq.svg");
+    --nol: url("./img/past1.png");
+    --top: url("./img/past2.png");
+    --left: url("./img/past3.svg");
+}
